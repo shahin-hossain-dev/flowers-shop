@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.primary-text-color {
+    color: #272727;
+}
+
+.secondary-text-color {
+    color: rgba(39, 39, 39, 0.60);
+
+}
+
+.btn-primary {
+    background: #E55473;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+/* common shared style */
+
+/* banner style */
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    justify-content: space-between;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 97px;
+    padding-top: 50px;
+}
+
+.banner-info {
+    width: 100%;
+}
+
+.banner-info .banner-title {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 32px;
+
+}
+
+.banner-description {
+    margin-bottom: 32px;
+    line-height: 25px;
+}
+
+.banner-img {
+    width: 400px;
+}
